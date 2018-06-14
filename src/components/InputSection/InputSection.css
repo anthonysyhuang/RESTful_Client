@@ -1,0 +1,46 @@
+.input-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 35px;
+    box-shadow: 4px 5px 8px #cecece91;
+}
+.method-and-url{
+    display: flex;
+    flex: 1;
+}
+select{
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid #cecece;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline: none;
+    font-size: 1em;
+    height: 100%;
+    padding: 0 10px;
+}
+.url-input{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 0.8em;
+}
+.send-btn{
+    height: 100%;
+    width: 100px;
+    font-size: 1em;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    outline: none;
+    border-left: 1px solid #cecece;
+}
+.send-btn:hover{
+    background-color: rgb(255, 136, 136);
+    color: white;
+}

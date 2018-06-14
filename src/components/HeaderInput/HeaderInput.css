@@ -1,0 +1,13 @@
+
+.header-input-section{
+    width: 100%;
+    box-shadow: 4px 5px 8px #cecece91;
+    height: 150px;
+}
+textarea{
+    width: 100%;
+}
+input{
+    border: none;
+    background-color: gray;
+}

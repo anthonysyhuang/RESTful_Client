@@ -1,0 +1,52 @@
+@header-input-section: header-input-section;
+
+.@{header-input-section}{
+    
+    width: 100%;
+    box-shadow: 4px 5px 8px #cecece91;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+
+    & .header{
+        display: flex;
+        padding: 10px 10px 10px 0;
+    }
+    & .inputs{
+        overflow: auto;
+    }
+
+    & .input-box{
+        width: 100%;
+        display: flex;
+    }
+    & input{
+        border: none;
+        line-height: 2em;
+        padding: 0 5px;
+        flex: 1;
+        font-size: 1em;
+        margin: 5px 15px 5px 0;
+        outline: none;
+        border-bottom: solid 1px gainsboro;
+    }
+    & label{
+        flex: 1;
+        font-weight: bold;
+    }
+    & .add-button{
+        border: none;
+        color: white;
+        height: 20px;
+        width: 45px;
+        outline: none;
+        border-radius: 20px;
+        background-color: #ff6565;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
